@@ -15,12 +15,12 @@ def isNumberPalindrome(num: int):
         temp = temp // 10
 
     if num == rev:
-        print("number is palindrome")
+        print("number is a palindrome")
     else:
-        print("number is not palindrome")
+        print("number is not a palindrome")
 
     return num == rev
 
 
-isNumberPalindrome(12345)
+isNumberPalindrome(12321)
 
